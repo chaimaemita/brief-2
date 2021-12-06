@@ -6,7 +6,9 @@ nav{
     width: 120px;
     height: 60px;
 }
-
+.listeh ul{
+    padding:0px
+}
 .listeh ul li{
     display: inline-flex;
     vertical-align: middle;
@@ -27,6 +29,9 @@ nav{
     display: inline;
     font-size: 15px;
     padding-left: 0px;
+}
+.breadcrumbs ul {
+    padding : 0px;
 }
 .breadcrumbs ul li a{
     text-decoration: none;
