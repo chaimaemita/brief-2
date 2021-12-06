@@ -14,23 +14,19 @@ nav{
     font-size: 20px;
     
 } 
-
 .listeh ul li a{
     text-decoration: none;
     color: black;
 } 
-
 .listeh ul li a:hover{
     text-decoration: underline;
     color: black;
 } 
 /*breadcrumbs*/
-
 .breadcrumbs ul li {
     display: inline;
-    vertical-align: middle;
-    margin-left: 10px;
     font-size: 15px;
+    padding-left: 0px;
 }
 .breadcrumbs ul li a{
     text-decoration: none;
@@ -49,147 +45,45 @@ nav{
 .para{
     width: 500px; 
 }
-/*images */
+/*main */
 section{
     display: flex;
 }
-/*image1*/
-.i1 img{
+.videos img{
     width: 150px;
     height: 150px;
     margin: 10px;
 }
-.i1{
-    border: 1px solid black;
-    margin-left: 0px;
+.videos{
+    border: 1px solid black !important;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    
 }
-.i1 h1{
+.videos h1{
     margin-left: 10px;
+    margin-bottom: 20px;
 }
-.i1 span{
+.videos span{
      color: grey;
      font-weight: bold;
-     margin-left: 10px;
-    
+     margin-left: 10px; 
+     margin-bottom: 0px;
  }
-.i1 p{
+.videos p{
      color: black;
      margin-left: 10px;
+     margin-top: 0px;
+     margin-bottom: 0px;
  }
-.i1 p span{
+.videos p span{
     text-decoration: underline;
     font-weight: bold;
     color: black;
     margin: 0px;
 }
 .vert{
-    color: green;
+    color: green !important;
     font-weight: bold;
     margin-left: 10px;
 }
-/*image2*/
-.i2 img{
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-}
-.i2{
-    border: 1px solid black;
-    margin-left: 20px;
-}
-.i2 h1{
-    margin-left: 10px;
-}
- .i2 span{
-     color: grey;
-     font-weight: bold;
-     margin-left: 10px;
-    
- }
- .i2 p{
-    margin-left: 10px;
-
- }
- .i2 p span{
-     text-decoration: underline;
-     font-weight: bold;
-     color: black;
-     margin: 0px;
- }
- .vert{
-    color: green;
-    font-weight: bold;
-    margin-left: 10px;
-
- }
-/*image3*/
-.i3 img{
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-}
-.i3{
-    border: 1px solid black;
-    margin-left: 20px;
-}
-.i3 h1{
-    margin-left: 10px;
-
-}
- .i3 span{
-     color: grey;
-     font-weight: bold;
-     margin-left: 10px;
-
- }
- .i3 p{
-    margin-left: 10px;
-
- }
- .i3 p span{
-     text-decoration: underline;
-     font-weight: bold;
-     color: black;
-     margin: 0px;
- }
- .vert{
-    color: green;
-    font-weight: bold;
-    margin-left: 10px;
-
- }
-
-/*image4*/
-.i4 img{
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-}
-.i4{
-    border: 1px solid black;
-    margin-left: 20px;
-}
-.i4 h1{
-    margin-left: 10px;
-
-}
- .i4 span{
-     color: grey;
-     font-weight: bold;
-     margin-left: 10px;
-
- }
- .i4 p{
-    margin-left: 10px;
-
- }
- .i4 p span{
-     text-decoration: underline;
-     font-weight: bold;
-     color: black;
-     margin: 0px;
- }
- .vert{
-    color: green;
-    font-weight: bold;
- }
