@@ -5,6 +5,7 @@ nav{
 .listeh img{
     width: 120px;
     height: 60px;
+    margin-left: 10px;
 }
 .listeh ul{
     padding:0px
@@ -19,6 +20,7 @@ nav{
 .listeh ul li a{
     text-decoration: none;
     color: black;
+    margin-left: 10px;
 } 
 .listeh ul li a:hover{
     text-decoration: underline;
@@ -36,6 +38,7 @@ nav{
 .breadcrumbs ul li a{
     text-decoration: none;
     color: black;
+    margin-left: 10px;
 }
 .breadcrumbs ul li a:hover{
     text-decoration: underline;
@@ -47,13 +50,12 @@ nav{
     color: black;
   }
 /*para*/
-.para{
-    width: 500px; 
-}
 /*main */
 section{
     display: flex;
+    margin-left: 10px;
 }
+
 .videos img{
     width: 150px;
     height: 150px;
@@ -65,9 +67,10 @@ section{
     padding-bottom: 10px;
     
 }
-.videos h1{
+.videos h3{
     margin-left: 10px;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 .videos span{
      color: grey;
@@ -91,4 +94,9 @@ section{
     color: green !important;
     font-weight: bold;
     margin-left: 10px;
+}
+ /*mobil*/
+ body {
+    min-width: 1000px;
+    margin: auto;
 }
