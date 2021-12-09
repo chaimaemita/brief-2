@@ -1,0 +1,75 @@
+@media only screen and (max-width : 600px) {
+
+    .listeh img{
+        display: block;
+    }
+
+    nav
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 30px  20px;
+    }
+
+    .listeh ul li{
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 20px;
+        
+    } 
+     
+    .breadcrumbs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 30px  20px;
+
+    }
+
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .para{
+        width: 35%;
+        margin: auto;
+    }
+    .para p{
+        margin-left: auto;
+        width: fit-content;
+       
+    }
+    article{
+        width: 300px;
+        margin: 20px 0;
+    }
+    article .videos{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .videos img {
+        width: 90%;
+        height: 150px;
+    }
+    .videos h2{
+        margin-left: 20%;
+    
+    }
+    .videos span{
+        margin-left: 20%;
+    }
+    .videos p{
+        margin-left: 20%;
+    }
+
+    
+}
+

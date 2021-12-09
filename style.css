@@ -1,3 +1,13 @@
+*{
+
+    box-sizing: border-box;
+    background-color:cornflowerblue;
+}
+
+body{
+    width: 100%;
+}
+
 /*listeh*/
 nav{
     display: flex;
@@ -7,6 +17,7 @@ nav{
     height: 60px;
     margin-left: 10px;
 }
+
 .listeh ul{
     padding:0px
 }
@@ -50,10 +61,16 @@ nav{
     color: black;
   }
 /*para*/
+.para h1 {
+    margin-left: 10px;
+}
+.para p{
+    margin-left: 10px;
+    width: 500px;
+}
 /*main */
 section{
     display: flex;
-    margin-left: 10px;
 }
 
 .videos img{
@@ -63,14 +80,14 @@ section{
 }
 .videos{
     border: 1px solid black !important;
-    margin-right: 10px;
+    margin: 15px;
     padding-bottom: 10px;
-    
 }
-.videos h3{
+.videos h2{
     margin-left: 10px;
     margin-bottom: 20px;
     font-size: 20px;
+    font-weight: bold;
 }
 .videos span{
      color: grey;
@@ -94,9 +111,4 @@ section{
     color: green !important;
     font-weight: bold;
     margin-left: 10px;
-}
- /*mobil*/
- body {
-    min-width: 1000px;
-    margin: auto;
 }
